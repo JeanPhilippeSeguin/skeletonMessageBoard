@@ -1,0 +1,11 @@
+extends layout
+
+
+
+block content 
+    <form method="POST" action="/new">
+    h1 post a message
+    input(type='text', name='messageUser', placeholder='username')
+    input(type='text', name='messageText', placeholder='message')
+    button(type='submit', value='submit')
+    </form>
